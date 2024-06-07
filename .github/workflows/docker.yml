@@ -81,7 +81,7 @@ jobs:
           push: true
           platforms: linux/amd64,linux/arm64
           # tags: ${{ steps.meta.outputs.tags }}
-          tags: releaseai/AUTOMATIC1111-stable-diffusion-webui:latest
+          tags: releaseai/automatic1111-stable-diffusion-webui:latest
           labels: ${{ steps.meta.outputs.labels }}
           cache-from: type=gha
           cache-to: type=gha,mode=max
